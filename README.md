@@ -1,2 +1,2 @@
-# ruturajx.github..io
+# ruturajx.github.io
 Deployed Portfolio Website
