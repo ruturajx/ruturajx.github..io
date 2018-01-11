@@ -345,6 +345,21 @@ a:focus, a:hover {
     opacity: 1;
 }
 
+.bravos-banner {
+    background-color: white;
+    background: linear-gradient(rgba(0,0,0, 0.7), rgba(0,0,0, 0.7));
+    background-image: url("../images/banner-vs.png");
+    width: 100%;
+    height: auto;
+    color: #ffffff;
+    padding: 200px 25px;
+    font-family: Source Sans Pro, sans-serif;
+    background-size: cover;
+    display: block;
+    opacity: 1;
+}
+
+
 .project-header-font{
     font-size: 60px;
 }
