@@ -22,6 +22,7 @@ body {
     font-family: 'Merriweather', serif;
     line-height: 1.8;
     color: #818181;
+    font-size: 18px;
 }
 
 
@@ -35,9 +36,9 @@ body {
 .banner {
     background-color: white;
     /*opacity: 0.5;*/
-    background-image: url("../images/uiux.jpg");
+    background-image: url("../images/banner_re.png");
     width: auto;
-    height: 500px;
+    height: 800px;
     color: #ffffff;
     padding: 100px 25px;
     font-family: Source Sans Pro, sans-serif;
@@ -49,26 +50,18 @@ body {
 /*.banner:before{*/
     /*background: rgba(0,0,0,0.7);*/
 /*}*/
-.homeBannerText {
-    color: black;
-    /*text-shadow: -1px 1px 0.2em rgba(0,0,0,0.5), 1px -1px 0.4em rgba(0,0,0,.5);*/
-    letter-spacing: 2px;
-    font-size: 35px;
-}
-
-.bannerTitle {
-    color: black;
-    /*text-shadow: -1px 1px 0.2em rgba(0,0,0,0.5), 1px -1px 0.4em rgba(0,0,0,.5);*/
-    letter-spacing: 2px;
-    font-size: 50px;
-}
 
 .bg-grey {
     background-color: #f6f6f6;
 }
 
+.bg-black {
+    background-color: black;
+    color: white;
+}
+
 .container-fluid {
-    padding: 60px 50px;
+    padding: 100px 120px;
 }
 
 .container-footer {
@@ -133,15 +126,15 @@ body {
 
 .carousel-control.right, .carousel-control.left {
     background-image: none;
-    color: #f4511e;
+    color: #FD5739;
 }
 
 .carousel-indicators li {
-    border-color: #f4511e;
+    border-color: #FD5739;
 }
 
 .carousel-indicators li.active {
-    background-color: #f4511e;
+    background-color: #FD5739;
 }
 
 .item h4 {
@@ -232,7 +225,7 @@ body {
 }
 
 .navbar-nav li a:hover, .navbar-nav li.active a {
-    color: grey !important;
+    color: #FD5739 !important;
     text-decoration-line: underline;
     background-color: #fff !important;
 }
@@ -248,19 +241,53 @@ footer .glyphicon {
     color: red;
 }
 
+.homeBannerText {
+    color: white;
+    letter-spacing: 2px;
+    font-size: 35px;
+    margin-left: 20px;
+    margin-bottom: 100px;
+    margin-top: 190px;
+
+}
+
+.bannerTitle {
+    color: black;
+    /*text-shadow: -1px 1px 0.2em rgba(0,0,0,0.5), 1px -1px 0.4em rgba(0,0,0,.5);*/
+    letter-spacing: 2px;
+    font-size: 50px;
+}
+
+
+h1 {
+    font-size: 48px;
+    color: #050002;
+    font-weight: 400;
+    line-height: 50px;
+    margin: 0px 0 20px 0;
+    font-family: Source Sans Pro, sans-serif;
+
+}
+
 h2 {
-    font-size: 24px;
-    text-transform: uppercase;
-    color: #303030;
-    font-weight: 600;
+    font-size: 32px;
+    color: #050002;
+    font-weight: 400;
     margin-bottom: 20px;
+    font-family: Source Sans Pro, sans-serif;
+}
+
+
+h3{
+    font-size: 28px;
+    color: #050002;
+    font-weight: 400;
+    margin-bottom: 16px;
     font-family: Source Sans Pro, sans-serif;
 }
 
 h4 {
     font-size: 18px;
-    /*line-height: 1.375em;*/
-    /*text-transform: uppercase;*/
     color: #303030;
     font-weight: 400;
     margin-bottom: 10px;
@@ -321,6 +348,7 @@ a:focus, a:hover {
     position: absolute;
     top: 0;
     left: 20px;
+    border-color: #FD5739;
 }
 
 .navbar-brand>img {
@@ -423,7 +451,7 @@ a:focus, a:hover {
     z-index: 99; /* Make sure it does not overlap */
     border: none; /* Remove borders */
     outline: none; /* Remove outline */
-    background-color: grey; /* Set a background color */
+    background-color: #FD5739; /* Set a background color */
     color: white; /* Text color */
     cursor: pointer; /* Add a mouse pointer on hover */
     padding-top: 5px;
@@ -435,7 +463,8 @@ a:focus, a:hover {
 }
 
 #myBtn:hover {
-    background-color: #555; /* Add a dark-grey background on hover */
+    background-color: #FD5739;
+    color: black;
 }
 
 .loader {
@@ -464,3 +493,46 @@ a:focus, a:hover {
     z-index: 9999;
     background: url(/images/preloader.gif) center no-repeat #fff;
 }
+
+.red-underline-h1 {
+    border-bottom: 5px solid #FD5739;
+    padding-bottom: 5px;
+}
+
+.color-red{
+    color:#FD5739;
+}
+
+.color-white{
+    color: white;
+}
+#resume-button{
+    background-color: #FD5739;
+    color: white;
+}
+
+#resume-button:hover{
+    color: black;
+}
+
+
+.card-tag {
+    background: #FD5739;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 20px;
+    border-radius: 80px;
+    font-weight: 700;
+    color: white;
+    font-size: 14px;
+}
+.card .is-notShownIfHover {
+    display: inline-block !important;
+}
+
+.scroll-img img {
+    width: auto;
+    height: 480px;
+    max-height: 480px;
+}
+
