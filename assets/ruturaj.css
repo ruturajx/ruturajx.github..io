@@ -397,6 +397,10 @@ a:focus, a:hover {
     letter-spacing: 2px;
     font-size: 20px;
 }
+.cinemall-margin{
+
+    margin-top: -100px;
+}
 
 .section-header span{
     border-bottom: 5px black solid;
@@ -453,7 +457,7 @@ a:focus, a:hover {
     background-color: #FD5739; /* Set a background color */
     color: white; /* Text color */
     cursor: pointer; /* Add a mouse pointer on hover */
-    padding-top: 0px;
+    padding-top: 2px;
     padding-bottom: 4px;
     padding-left: 10px;
     padding-right: 10px;
