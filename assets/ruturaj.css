@@ -22,7 +22,7 @@ body {
     font-family: 'Merriweather', serif;
     line-height: 1.8;
     color: #818181;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 
@@ -226,7 +226,6 @@ body {
 
 .navbar-nav li a:hover, .navbar-nav li.active a {
     color: #FD5739 !important;
-    text-decoration-line: underline;
     background-color: #fff !important;
 }
 
@@ -454,8 +453,8 @@ a:focus, a:hover {
     background-color: #FD5739; /* Set a background color */
     color: white; /* Text color */
     cursor: pointer; /* Add a mouse pointer on hover */
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding-top: 0px;
+    padding-bottom: 4px;
     padding-left: 10px;
     padding-right: 10px;
     /* Some padding */
