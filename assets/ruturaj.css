@@ -520,14 +520,15 @@ a:focus, a:hover {
 
 
 .card-tag {
-    background: #FD5739;
+    background: white;
     padding-left: 10px;
     padding-right: 10px;
     margin-bottom: 20px;
     border-radius: 80px;
     font-weight: 700;
-    color: white;
+    color: #FD5739;
     font-size: 14px;
+    border-color:#FD5739;
 }
 .card .is-notShownIfHover {
     display: inline-block !important;
@@ -539,3 +540,15 @@ a:focus, a:hover {
     max-height: 480px;
 }
 
+.idea-btn{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #f6f6f6;
+    border-color: #FD5739;
+}
+
+.idea-btn:hover, .idea-btn:focus, .idea-btn::selection{
+    background-color: darkgrey;
+    border-color: #FD5739;
+
+}
