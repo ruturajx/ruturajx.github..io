@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-110163268-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-110163268-1');
+    </script>
+    <title>Ruturaj Eksambekar's Portfolio Website</title>
+    <meta charset="utf-8">
+    <link rel="icon" href="resources/ruturaj.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/ruturaj.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="assets/js/ruturaj.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
+    <script src="https://use.fontawesome.com/1378989c45.js"></script>
+
+</head>
+
+<body id="cinemall" data-spy="scroll" data-target=".navbar" data-offset="60">
+<header>
+
+    <!--Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand topleft" href="index.html"><img class="logobutton img-responsive" width="30" height="30" src="resources/Logo.png"/></a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="index.html">BACK TO PORTFOLIO</a></li>
+                    <li><a href="resources/Ruturaj_Eksambekar_Resume.pdf" target="_blank">RESUME</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa fa-chevron-up" style="font-size: 18px" aria-hidden="true"></i>
+    </button>
+
+
+    <!--banner section-->
+    <div class="text-center birdtracker-banner project-header-text">
+        <p class="project-header-font"><span style="background:rgba(0, 0, 0,0.7);"><strong>Migratory Bird Tracking System</strong></span></p>
+        <p><span style="background:rgba(0, 0, 0,0.7);">Using RF as communication medium and Android mobile base stations</span></p>
+    </div>
+
+
+</header>
+
+<div id="Overview" class="container-fluid">
+    <h1 class="text-left"><span class="red-underline-h1">Overview</span></h1>
+    <br>
+    <div class="row">
+        <div class="col-sm-12">
+            <h2>Problem Scope</h2>
+            <p>
+                The aim of this project was to develop a prototype for a system to track migration patterns of birds found
+                in and around the Indian subcontinent. The challenges involved with this project were to reduce the size of
+                the tracker, optimizing battery usage and carry out the task of tracking birds without recapturing them.
+                With this system, we wished to create social awareness through crowd sourcing and lower the commercial cost
+                of such a system for ornithologists and research purposes in academia.
+
+            </p>
+        </div>
+    </div>
+
+
+    <div class="row">
+
+        <div class="col-sm-3">
+            <h2>Team Members</h2>
+            <p>
+                <a href="https://www.linkedin.com/in/puneet-beri-5a3922aa/">Puneet Beri</a><br>
+                <a href="https://www.linkedin.com/in/piyushdawande/">Piyush Dawande</a><br>
+                Ruturaj Eksambekar<br>
+                <a href="https://www.linkedin.com/in/rutagokhale/">Ruta Gokhale</a><br>
+            </p>
+        </div>
+
+
+        <div class="col-sm-6">
+            <h2>My Role</h2>
+            <p>My role in the project was to design and develop
+                the tracker & transceiver module, enable data
+                transfer over RF using Arduino firmware coding;
+                and to develop a website which will be used to
+                display the migration behavior data which has been
+                uploaded by the mobile application present in the
+                base stations.</p>
+        </div>
+
+        <div class="col-sm-3">
+            <h2>Project Duration</h2>
+            <p>September 2015 – June 2016</p><br>
+
+        </div>
+
+    </div>
+
+    <div class="row">
+        <div class="col-sm-12">
+            <h2>Technology Stack</h2>
+
+        </div>
+
+        <div class="col-sm-3">
+            <ul>
+                <li>Java</li>
+                <li>C++,</li>
+                <li>AngularJS</li>
+                <li>JavaScript</li>
+                <li>HTML5, CSS & Bootstrap</li>
+            </ul>
+        </div>
+        <div class="col-sm-3">
+            <ul>
+                <li>ArduinoCC</li>
+                <li>Android Studio</li>
+                <li>Eclipse IDE</li>
+                <li>Firebase Cloud Storage</li>
+                <li>NodeJS</li>
+            </ul>
+        </div>
+
+        <div class="col-sm-6">
+            <ul>
+                <li>Location Sensor : L80 by Quectel</li>
+                <li>RF transmitter / receiver : CC1101 by Texas Instruments</li>
+                <li>Micro-contoller : Arduino ProMini</li>
+                <li>Android phone with OTG support</li>
+                <li>Power Source : A small battery</li>
+            </ul>
+        </div>
+
+    </div>
+</div>
+
+
+<!--Details Section-->
+
+<div id="Details" class="container-fluid">
+    <h1 class="text-left"><span class="red-underline-h1">Solution Details</span></h1>
+    <br>
+    <div class="row">
+        <div class="col-sm-12">
+            <h2>System Design</h2>
+                <p>
+                    The project comprised of four main modules
+                    namely on-bird tracker, transceiver module,
+                    android mobile application and web application.
+                    We later integrated a SIM based tracker as well.
+                </p>
+        </div>
+    </div>
+        <div class="row">
+            <br>
+            <div class="col-sm-4"></div>
+            <div class="col-sm-4">
+                <img src="images/birdTracker/system-diagram.png" class="img-responsive"/>
+            </div>
+
+        </div>
+
+
+    <div class="row">
+        <br><br>
+        <div class="col-sm-12">
+            <h2>Modules</h2>
+            <br>
+            <h3>1. Tracker Module</h3>
+            <br>
+            <img src="images/birdTracker/tracker-module.png" class="img-responsive center-block"/><br>
+            <p>The tracker is mounted on the bird. It includes a micro-controller, power source, GPS sensor, an accelerometer
+                and a temperature sensor. The tracker operates on a periodic wake-up cycle. The sensors collect the geo-location,
+                orientation and temperature data and store it in the form of records in the tracker memory (EEPROM).
+                The tracker wakes up on getting an incoming request from a mobile device in the vicinity.
+                Upon reception of a request, a connection is established and the tracker pushes all the data records
+                in its memory to the mobile device. The data from the tracker is successfully flushed after successful
+                acknowledgement from the mobile app.</p>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-sm-12">
+            <h3>2. Transceiver Module</h3>
+            <br>
+            <img src="images/birdTracker/transceiver-mod.png" class="img-responsive center-block"/><br>
+            <p>The transceiver broadcasts the request generated from the mobile app in the surrounding area.
+                A connection is established between the transceiver and the closest tracker in the vicinity.
+                After successfully establishing a connection, the data records from the tracker are received by the
+                transceiver and then transmitted to the app in the mobile device via UART-to- USB. The app then generates
+                an acknowledgement which is sent to the tracker through the transceiver.</p>
+
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-sm-12">
+            <h3>3. Mobile Application Module</h3>
+            <br>
+            <img src="images/birdTracker/Mobile-app-mod.png" class="img-responsive center-block"/><br>
+            <p>Upon starting the app, it first generates and broadcasts requests to any surrounding trackers in the vicinity.
+                The closest tracker in range responds with a signal and a dedicated connection is established.
+                The app receives data from the tracker until all the tracker data records are transmitted.
+                The app then generates and sends an acknowledgement to the tracker via the transceiver. Upon availability
+                of mobile networks, the app pushes all its data to the cloud server. After receiving all the app data,
+                the server replies with an acknowledgement, after which the app flushes all its stored data.</p>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-sm-12">
+            <h3>4. Web Application Module</h3>
+            <br>
+            <img src="images/birdTracker/Webapp-mod.png" class="img-responsive center-block"/><br>
+            <p>The web app fetches the data from the cloud server (Firebase) and displays the migratory routes
+                and patterns in a Google maps applet. It performs appropriate processing of the data as per user queries
+                and displays the required results. The user queries may include requests for specific data such as a query for a
+                specific bird which will display its last known location, its route of migration, the speed and temperature of
+                its environment.
+            </p>
+        </div>
+    </div>
+
+</div>
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-sm-12">
+            <h2>Activity Diagram</h2>
+            <br>
+            <img src="images/birdTracker/Activity-dig.png" class="img-responsive"/>
+        </div>
+    </div>
+</div>
+
+<div id="prtotoype-details" class="container-fluid">
+    <h2>Prototype</h2>
+    <div class="row">
+        <div class="col-sm-12 text-center">
+            <br>
+            <img src="images/birdTracker/Prototype-img.png" class="img-responsive"/>
+            <br>
+            <img src="images/birdTracker/tracker-apps.png" class="img-responsive"/>
+            <br>
+            <iframe align="middle" width="560" height="315" src="https://www.youtube.com/embed/iIljtwvDC80" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div>
+    </div>
+</div>
+
+
+<div id="Testing-Publication" class="container-fluid">
+    <div class="row">
+        <div class="col-sm-12">
+            <h2>Testing</h2>
+            <p>Initially, we tested individual modules to verify the interoperability of the different components by using dummy data.
+                To test the entire prototype, we physically carried the tracker module with us and went on a drive to test
+                the entire functionality of every module.</p>
+          </div>
+    </div>
+    <br>
+    <div class="row">
+        <div class="col-sm-12">
+            <h2>Publication</h2>
+            <p>We conducted extensive research and did a through literature survey for this project.
+                With this in mind, we published a research paper in International Journal on Recent and Innovation Trends
+                in Computing and Communication (IJRITCC), ISSN: 2321-8169, PP: 543 – 545.</p><br>
+            <a href="http://www.ijritcc.org/download/browse/Volume_4_Issues/May_16_Volume_4_Issue_5/1465367554_08-06-2016.pdf" target="_blank">
+                <p class="text-black">URL: <u>Click here for research paper.</u></p>
+            </a>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid bg-grey">
+    <div class="row">
+        <div class="col-sm-3"></div>
+        <div class="col-sm-6 text-center">
+            <h2>Team Bidies!</h2>
+            <img src="images/birdTracker/birdies.png" class="img-responsive"/>
+        </div>
+    </div>
+</div>
+
+<!--Footer-->
+<footer class="container-footer">
+    <!--<a href="#homePage" title="To Top">-->
+    <!--<span class="glyphicon glyphicon-chevron-up"></span>-->
+    <!--</a>-->
+    <div class="row">
+        <div class="col-sm-8">
+            <p style="font-size: 14px">Designed & Developed with <span class="glyphicon glyphicon-heart"></span> by &copy; Ruturaj Eksambekar</p>
+        </div>
+        <!--<div class="col-sm-4"></div>-->
+        <div class="col-sm-4 text-right footer-icon-size">
+            <a href="https://www.linkedin.com/in/ruturajeks/" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>&nbsp;&nbsp;
+            <a href="https://github.com/ruturajx" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>&nbsp;&nbsp;
+            <a href="https://www.facebook.com/ruturaj.eksambekar" target="_blank"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>&nbsp;&nbsp;
+            <a href="https://www.behance.net/ruturajeks86ad" target="_blank"><i class="fa fa-behance" aria-hidden="true"></i></a>&nbsp;&nbsp;
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>

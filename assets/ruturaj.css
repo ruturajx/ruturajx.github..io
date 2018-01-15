@@ -386,6 +386,35 @@ a:focus, a:hover {
     opacity: 1;
 }
 
+.birdtracker-banner{
+    background-color: white;
+    background: linear-gradient(rgba(0,0,0, 0.7), rgba(0,0,0, 0.7));
+    background-image: url("../images/birdTracker/bird-banner.png");
+    width: 100%;
+    height: auto;
+    color: #ffffff;
+    padding: 200px 25px;
+    font-family: Source Sans Pro, sans-serif;
+    background-size: cover;
+    display: block;
+    opacity: 1;
+}
+
+.driver-banner{
+    background-color: white;
+    background: linear-gradient(rgba(0,0,0, 0.7), rgba(0,0,0, 0.7));
+    background-image: url("../images/auto-profiling/Auto-banner.png");
+    width: 100%;
+    height: auto;
+    color: #ffffff;
+    padding: 200px 25px;
+    font-family: Source Sans Pro, sans-serif;
+    background-size: cover;
+    display: block;
+    opacity: 1;
+}
+
+
 
 .project-header-font{
     font-size: 60px;
@@ -550,5 +579,4 @@ a:focus, a:hover {
 .idea-btn:hover, .idea-btn:focus, .idea-btn::selection{
     background-color: darkgrey;
     border-color: #FD5739;
-
 }
