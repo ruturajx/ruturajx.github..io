@@ -25,6 +25,23 @@
     <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 
+    <!--Heap analytics-->
+
+    <script type="text/javascript">
+        window.heap = window.heap || [], heap.load = function (e, t) {
+            window.heap.appid = e, window.heap.config = t = t || {};
+            var r = t.forceSSL || "https:" === document.location.protocol, a = document.createElement("script");
+            a.type = "text/javascript", a.async = !0, a.src = (r ? "https:" : "http:") + "//cdn.heapanalytics.com/js/heap-" + e + ".js";
+            var n = document.getElementsByTagName("script")[0];
+            n.parentNode.insertBefore(a, n);
+            for (var o = function (e) {
+                return function () {
+                    heap.push([e].concat(Array.prototype.slice.call(arguments, 0)))
+                }
+            }, p = ["addEventProperties", "addUserProperties", "clearEventProperties", "identify", "resetIdentity", "removeEventProperty", "setEventProperties", "track", "unsetEventProperty"], c = 0; c < p.length; c++) heap[p[c]] = o(p[c])
+        };
+        heap.load("3392883423");
+    </script>
 
 </head>
 <body>
@@ -63,13 +80,14 @@
 
     <div class="container index-container add-medium-margin" id="list-of-projects">
 
+
         <div class="row" id="each-project">
             <div class="col-md-5 front-desc">
 
                 <p class="front-title">Cinemall</p>
                 <p class="front-text">A mobile app that helps improve the in-theater movie experience for the visually
                     impaired guests.</p>
-                <p class="personal-title">UX Design, UX Research</p>
+                <p class="personal-title">UX Designer</p>
                 <!--<p class="front-text to-show add-small-margin">My favorite project</p>-->
             </div>
             <div class="col-md-7 text-center">
@@ -83,10 +101,27 @@
         <div class="row add-small-margin" id="each-project">
 
             <div class="col-md-5 front-desc">
+                <p class="front-title">Memeois</p>
+                <p class="front-text">A product that makes consuming and creating memes easy and delightful. Also in
+                    AR!</p>
+                <p class="personal-title">Design Lead, Co-Founder</p>
+                <!-- <p class="front-text to-show add-small-margin">My intern project</p> -->
+            </div>
+            <div class="col-md-7 text-center">
+                <a class="portfolio-link" href="#">
+                    <img src="images/v2/memeois.png" class="img-responsive project-img"/>
+                </a>
+            </div>
+        </div>
+
+
+        <div class="row add-small-margin" id="each-project">
+
+            <div class="col-md-5 front-desc">
                 <p class="front-title">Arcadia</p>
                 <p class="front-text">An arcade themed interactive trash can aimed to motivate users to recycle
-                    correctly</p>
-                <p class="personal-title">Interaction Design, H/W Prototyping</p>
+                    correctly.</p>
+                <p class="personal-title">Experience Designer, Developer</p>
             </div>
             <div class="col-md-7 text-center">
                 <a class="portfolio-link" href="cinemall.html">
@@ -99,11 +134,30 @@
 
         <div class="row add-small-margin" id="each-project">
 
+
+            <div class="col-md-5 front-desc">
+                <p class="front-title">Future of Mobility</p>
+                <p class="front-text">Researching various human-human and human-machine interactions in ride sharing
+                    services to
+                    design a solution for a fully autonomous ride sharing experience.</p>
+                <p class="personal-title">Researcher, UX Designer</p>
+                <!--<p class="front-text to-show add-small-margin">For movie lovers</p> -->
+            </div>
+            <div class="col-md-7 text-center">
+                <a class="portfolio-link" href="#">
+                    <img src="images/v2/av.png" class="img-responsive project-img"/>
+
+                </a>
+            </div>
+        </div>
+
+        <div class="row add-small-margin" id="each-project">
+
             <div class="col-md-5 front-desc">
                 <p class="front-title">Bravos</p>
-                <p class="front-text">An bike lock ecosystem that helps students easily find spaces to park and lock
-                    their bikes on Georgia Tech campus.</p>
-                <p class="personal-title">UX Research, UX Design</p>
+                <p class="front-text">A mobile app aimed to improve women's underwear purchasing experience for
+                    non-traditional customers.</p>
+                <p class="personal-title">UX Designer</p>
                 <!-- <p class="front-text to-show add-small-margin">My first ever design project</p> -->
             </div>
             <div class="col-md-7 text-center">
@@ -114,39 +168,6 @@
         </div>
 
 
-        <div class="row add-small-margin" id="each-project">
-
-            <div class="col-md-5 front-desc">
-                <p class="front-title">Memeois</p>
-                <p class="front-text">An iOS app that allows you and a group of friends to split a check
-                    hassle-free.</p>
-                <p class="personal-title">Design Lead, Co-Founder</p>
-                <!-- <p class="front-text to-show add-small-margin">My intern project</p> -->
-            </div>
-            <div class="col-md-7 text-center">
-                <a class="portfolio-link" href="check">
-                    <img src="images/v2/Cinemall-indexV2.png" class="img-responsive project-img"/>
-                </a>
-            </div>
-        </div>
-
-        <div class="row add-small-margin" id="each-project">
-
-
-            <div class="col-md-5 front-desc">
-                <p class="front-title">Future of Mobility</p>
-                <p class="front-text">We redesigned the app experience for movie lovers using iOS Human Interface
-                    Guidelines.</p>
-                <p class="personal-title">UX Design, Visual Design</p>
-                <!--<p class="front-text to-show add-small-margin">For movie lovers</p> -->
-            </div>
-            <div class="col-md-7 text-center">
-                <a class="portfolio-link" href="moviepass">
-                    <img src="images/v2/Cinemall-indexV2.png" class="img-responsive project-img"/>
-
-                </a>
-            </div>
-        </div>
 
 
         <!--<div class="row add-small-margin" id="each-project">-->
@@ -198,25 +219,28 @@
                     Computing Specialization at Georgia Tech.
                 </p>
                 <p class="front-text">
-                    I love creating solutions that address a true user need. Working away into the late nights with my
-                    teammates, sitting in front of the whiteboard, and drawing away on scraps of paper, have been some
-                    of my favorite parts of this journey.
+                    I am a passionate UX Designer with Computer Engineering background. Due to the engineering
+                    experience,
+                    I have a considerable knowledge of how to make digital products; but how to make them tenable is
+                    something
+                    that has always compelled me. That made me shift my focus on UX design and thus led me to graduate
+                    school in the field of HCI.
                 </p>
+                <!--<p class="front-text">-->
+                <!--My design path wasn't always linear. I studied CS as an undergrad but discovered a passion-->
+                <!--for technology and design towards the end of college. Working as a consultant in the business world-->
+                <!--helped me develop a strong empathy for my users and clients. I decided to follow my gut and come-->
+                <!--into the design world.-->
+                <!--</p>-->
                 <p class="front-text">
-                    My design path wasn't always linear. I studied Accounting as an undergrad but discovered a passion
-                    for technology and design towards the end of college. Working as a consultant in the business world
-                    helped me develop a strong empathy for my users and clients. I decided to follow my gut and come
-                    into the design world.
-                </p>
-                <p class="front-text">
-                    Whenever I find the time, I like to rock climb, practice lettering, and eat.</p>
+                    Whenever I find the time, I like to practice ukulele.</p>
                 <br>
-                <a href="images/resume.pdf" class="my-btn" target="_blank">Resume</a>
+                <a href="resources/Ruturaj_Eksambekar_Resume.pdf" class="my-btn" target="_blank">Resume</a>
 
             </div>
 
             <div class="col-md-4 my-photo add-medium-margin">
-                <img src="images/Shades.jpg" class="img-responsive"/>
+                <img src="images/Shades.jpg" class="img-responsive index-photo"/>
             </div>
 
         </div>
