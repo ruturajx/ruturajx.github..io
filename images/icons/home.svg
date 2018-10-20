@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 76.67 77.36">
+    <defs>
+        <style>.cls-1,.cls-2{fill:#fff;stroke:#fff;}.cls-1{stroke-linejoin:round;}.cls-2{stroke-miterlimit:10;}</style>
+    </defs>
+    <title>home</title>
+    <g id="Layer_2" data-name="Layer 2">
+        <g id="Layer_1-2" data-name="Layer 1">
+            <polygon class="cls-1"
+                     points="38.42 15.15 9.85 43.86 19.32 76.86 29.85 76.86 29.85 52.86 45.85 52.86 45.85 76.86 56.52 76.86 66.85 43.86 38.42 15.15"/>
+            <rect class="cls-2" x="-6.77" y="18.05" width="55.15" height="5.54" rx="2.77" ry="2.77"
+                  transform="translate(-8.62 20.81) rotate(-45)"/>
+            <rect class="cls-2" x="28.29" y="18" width="55.09" height="5.67" rx="2.77" ry="2.77"
+                  transform="translate(80.58 75.05) rotate(-135)"/>
+        </g>
+    </g>
+</svg>
