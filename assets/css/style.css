@@ -426,6 +426,10 @@ img.bkgd-tiles {
     box-shadow: 4px 4px 24px rgba(0, 0, 0, 0.12);
 }
 
+.overview-photo-effect {
+    width: 100px;
+}
+
 .iphone-x-video {
     width: 200px;
     box-shadow: 4px 4px 24px rgba(0, 0, 0, 0.12);
@@ -482,7 +486,7 @@ img.bkgd-tiles {
 }
 
 .even-larger-than-medium-large-image {
-    width: 700;
+    width: 700px;
 }
 
 .slightly-larger-than-medium-large-image {
@@ -647,47 +651,47 @@ img.bkgd-tiles {
     z-index: 1;
 }
 
-.outside-spinner {
-    height: 100%;
-    margin-top: 25%;
-}
+/*.outside-spinner {*/
+/*height: 100%;*/
+/*margin-top: 25%;*/
+/*}*/
 
-.spinner {
-    filter: saturate(3);
-    width: 0.1px;
-    height: 0.1px;
-    border: 40px solid transparent;
-    border-radius: 5px;
-    animation: loader 3s ease-in infinite, spin 1s linear infinite;
-}
+/*.spinner {*/
+/*filter: saturate(3);*/
+/*width: 0.1px;*/
+/*height: 0.1px;*/
+/*border: 40px solid transparent;*/
+/*border-radius: 5px;*/
+/*animation: loader 3s ease-in infinite, spin 1s linear infinite;*/
+/*}*/
 
-.spinner::before {
-    filter: saturate(0.3);
-    display: block;
-    position: absolute;
-    z-index: 1;
-    margin-left: -40px;
-    margin-top: -40px;
-    content: '';
-    height: 0.1;
-    width: 0.1;
-    border: 40px solid transparent;
-    border-radius: 5px;
-    animation: loader 2s ease-in infinite reverse, spin 0.8s linear infinite reverse;
-}
+/*.spinner::before {*/
+/*filter: saturate(0.3);*/
+/*display: block;*/
+/*position: absolute;*/
+/*z-index: 1;*/
+/*margin-left: -40px;*/
+/*margin-top: -40px;*/
+/*content: '';*/
+/*height: 0.1;*/
+/*width: 0.1;*/
+/*border: 40px solid transparent;*/
+/*border-radius: 5px;*/
+/*animation: loader 2s ease-in infinite reverse, spin 0.8s linear infinite reverse;*/
+/*}*/
 
-.spinner::after {
-    display: block;
-    position: absolute;
-    z-index: 2;
-    margin-left: -10px;
-    margin-top: -10px;
-    content: '';
-    height: 20px;
-    width: 20px;
-    border-radius: 20px;
-    background-color: white;
-}
+/*.spinner::after {*/
+/*display: block;*/
+/*position: absolute;*/
+/*z-index: 2;*/
+/*margin-left: -10px;*/
+/*margin-top: -10px;*/
+/*content: '';*/
+/*height: 20px;*/
+/*width: 20px;*/
+/*border-radius: 20px;*/
+/*background-color: white;*/
+/*}*/
 
 /*Index stuff*/
 
@@ -1001,35 +1005,25 @@ img.bkgd-tiles {
     }
 }
 
-/** LIGHTBOX MARKUP **/
+/*Modal image stuff*/
 
-.lightbox {
-    /** Default lightbox to hidden */
-    display: none;
+#myImg {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
 
-    /** Position and style */
-    position: fixed;
-    z-index: 999;
-    width: 100%;
-    height: 100%;
-    text-align: center;
-    top: 0;
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
     left: 0;
-    background: rgba(0, 0, 0, 0.8);
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0); /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
 }
-
-.lightbox img {
-    /** Pad the lightbox image */
-    max-width: 90%;
-    max-height: 80%;
-    margin-top: 2%;
-}
-
-.lightbox:target {
-    /** Remove default browser outline */
-    outline: none;
-
-    /** Unhide lightbox **/
-    display: block;
-}
-
