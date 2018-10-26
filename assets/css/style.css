@@ -515,6 +515,10 @@ img.bkgd-tiles {
     margin-top: 50px !important;
 }
 
+.add-margin-right {
+    margin-right: 20px;
+}
+
 .process-style {
     background-color: #EEEEEE;
     margin-top: 50px;
