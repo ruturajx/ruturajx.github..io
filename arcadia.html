@@ -1,0 +1,859 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+
+    <meta charset="utf-8">
+    <title>CinemAll Mobile App</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i|Quicksand:300,400,500,700"
+          rel="stylesheet">
+
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/lightgallery.css">
+    <script src="https://use.fontawesome.com/6eab716f23.js"></script>
+
+    <link rel="icon" type="image/png" href="images/favicon.png">
+
+    <script src="https://use.typekit.net/uyi1kti.js"></script>
+    <script>try {
+        Typekit.load({async: true});
+    } catch (e) {
+    }</script>
+
+</head>
+
+<body>
+
+
+<div class="main-content">
+    <a href="javascript:" id="back-to-top"><i class="fa fa-arrow-up" aria-hidden="true"></i></a>
+
+    <div class="container">
+        <div class="row contact-info">
+
+            <div class="col-md-8">
+                <a href="/index1.html" class="go-home">Home</a>
+
+            </div>
+
+            <div class="col-md-4 text-right">
+                <a href="" class="go-home">Up Next : bravos</a>
+
+
+                <!--<div class="social-media caption">-->
+
+                <!--<a class="mail" href="mailto:ruturajeks@gmail.com">-->
+                <!--<img src="images/icons/mail.svg" class="my-icons"/>-->
+                <!--</a>&nbsp;-->
+                <!--<a class="dribbble" href="https://www.dribbble.com/ruturajx" target="_blank">-->
+                <!--<img src="images/icons/dribbble.svg" class="my-icons"/>-->
+                <!--</a>&nbsp;-->
+                <!--<a class="linkedin" href="https://www.linkedin.com/in/ruturajeks" target="_blank">-->
+                <!--<img src="images/icons/linkedin.svg" class="my-icons"/>-->
+                <!--</a>-->
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="process-header" class="add-drop-shadow">
+    <div class="process-stuff">
+        <li>
+            <a href="#overview">OVERVIEW</a>
+        </li>
+        <li>
+            <a href="#understanding">RESEARCH</a>
+        </li>
+        <li>
+            <a href="#ideation">IDEATION</a>
+        </li>
+        <li>
+            <a href="#design">DESIGN</a>
+        </li>
+        <li>
+            <a href="#evaluation">PHYSICAL PROTOTYPING</a>
+        </li>
+        <li>
+            <a href="#software">SOFTWARE DETAILS</a>
+        </li>
+        <li>
+            <a href="#reflection">REFLECTION</a>
+        </li>
+    </div>
+</div>
+
+
+<div class="container-fluid">
+
+
+    <div class="row">
+
+        <div class="col-md-12 text-center">
+            <p class="page-title">Arcadia</p>
+            <p class="page-subtitle text-uppercase tagline">Interactive Recycling Station for Georgia Tech Campus</p>
+            <img src="images/v2/arcadia/hero.png"
+                 class="large-image center-block img-responsive add-small-margin"/>
+        </div>
+    </div>
+</div>
+
+
+<div class="container-fluid my-container" id="logistics">
+
+    <div class="row">
+
+        <div class="col-md-12">
+
+            <div class="row">
+                <div class="col-xs-3 text-right">
+                    <p><b>Role</b></p>
+                </div>
+                <div class="col-xs-9">
+                    <p>Experience Designer, Physical Prototyping, Programmer</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-3 text-right">
+                    <p><b>Details</b></p>
+                </div>
+                <div class="col-xs-9">
+                    <p>Class project (team of three), 4 months</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-3 text-right">
+                    <p><b>Tools used</b></p>
+                </div>
+                <div class="col-xs-9">
+                    <p>Sketch, Audacity, Illustrator, Fusion 360, Arduino, Processing</p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-xs-3 text-right">
+                    <p><b>Users</b></p>
+                </div>
+                <div class="col-xs-9">
+                    <p>Visually impaired theater guests who use Video Description devices</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="container-fluid my-container" id="overview">
+
+
+    <div class="row">
+
+        <div class="col-md-12">
+            <p class="section-title text-center">Overview</p>
+            <p class="section-subtitle text-center">TL;DR</p>
+            <p>Arcadia is an interactive recycling station aimed to encourage correct recycling by engaging people in
+                self-motivated interactions. We built this recycling station - disguised as an arcade machine, that
+                calls on people to vote on two sides of a trivial arguments. The only they can vote is by recycling
+                their trash!
+                The machine counts the number of votes, and detects whether the recycled material was put in the right
+                slot. Based on the input it gives corresponding audio-visual feedback.
+            </p><br>
+        </div>
+    </div>
+</div>
+
+
+</div>
+
+<div class="container medium-container">
+    <br>
+    <div class="row">
+
+        <div class="col-md-6">
+
+
+            <!--<img class="center-block overview-photo-effect" src="images/v2/cinemall/overview/enter-movie.png"/>-->
+
+            <video autoplay loop class="center-block video-shadow" width="100%">
+                <source src="images/v2/videos/arcadia/change-topic.mp4"/>
+            </video>
+        </div>
+        <div class="col-md-6">
+
+            <p class="feature-title add-medium-margin">
+                Setup Topics to Vote on
+            </p>
+
+            <p>Setting up trivial questions that people have strong opinions on to encourage interaction</p>
+        </div>
+    </div>
+    <br><br>
+
+    <div class="row">
+
+        <div class="col-md-6">
+            <p class="feature-title add-medium-margin">
+                Correct Recycling
+            </p>
+            <p>Correct action will be rewarded with positive audio-visual feedback and +2 score!</p>
+        </div>
+
+        <div class="col-md-6">
+
+            <video autoplay loop class="center-block video-shadow" width="100%">
+                <source src="images/v2/videos/arcadia/correct-recycle.mp4"/>
+            </video>
+
+
+        </div>
+
+    </div>
+
+    <br><br>
+
+    <div class="row">
+
+        <div class="col-md-6">
+
+            <video autoplay loop class="center-block video-shadow" width="100%">
+                <source src="images/v2/videos/arcadia/wrong-recycle.mp4"/>
+            </video>
+
+        </div>
+
+        <div class="col-md-6">
+            <p class="feature-title add-medium-margin">
+                Incorrect Recycling
+            </p>
+            <p>Incorrect action still be rewarded with +1 score but will get a negative audio-visual feedback</p>
+        </div>
+
+    </div>
+
+    <br><br>
+    <br><br>
+
+    <div class="row">
+
+
+        <div class="col-md-12">
+
+            <p class="feature-title text-center">Project Video</p>
+            <br>
+            <iframe width="100%" height="600" src="https://www.youtube.com/embed/xXxxTmoN6ww" frameborder="0"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+        </div>
+    </div>
+
+    <!--<br><br>-->
+    <!--<div class="row">-->
+
+    <!--<div class="col-md-6">-->
+
+    <!--<img src="images/lockit/modified-u-lock.jpg" class="center-block img-responsive"/>-->
+    <!--</div>-->
+    <!--<div class="col-md-6">-->
+    <!--<p class="feature-title add-small-margin">-->
+    <!--More efficient locking-->
+    <!--</p>-->
+    <!--<p>Users will be able to easily lock their bikes with the new modified U-lock, decreasing locking-->
+    <!--time.</p>-->
+    <!--<p class="caption">Note: The modified U-Lock was 3D printed.</p>-->
+    <!--</div>-->
+
+
+</div>
+
+
+<div class="container-fluid process-style add-medium-margin">
+
+    <div class="row">
+        <div class="col-md-12">
+            <p class="text-center feature-title">High-Level Process</p><br>
+            <img src="images/v2/cinemall/cinemall-process.png" class="img-responsive"/>
+        </div>
+    </div>
+
+</div>
+
+
+<div class="container-fluid my-container" id="understanding">
+    <div class="row">
+        <div class="col-md-12">
+            <!--<img src="images/lockit/icons/another-lock.svg" class="center-block small-icons"/>-->
+            <p class="text-center section-title">RESEARCH</p>
+            <p class="text-center section-subtitle">Understanding the problem space </p>
+            <p>We conducted observations, semi-structured interviews, field visits and also conducted walkthroughs
+                of
+                the movie watching process to understand the problem space. All four of the team members visited
+                different movie theaters,
+                two of us watched a movie using a Descriptive Video (DV) device and the other two talked to the
+                manager and theater
+                associates to gain insights from them on the process. <br>
+                We also dived into the online blind community by visiting government websites, existing solutions
+                and user reviews of them, and online message boards</p>
+            <br>
+        </div>
+    </div>
+</div>
+
+
+<div class="container medium-container">
+    <div class="row">
+        <div class="col-md-12">
+            <img src="images/cinemall/cine-research1.png" class="img-responsive center-block"/>
+        </div>
+
+        <!--<div class="col-md-6 add-medium-margin">-->
+        <!--<p>We conducted some initial unstructured interviews with the Georgia Tech Police Department (GTPD) on-->
+        <!--campus. Talking to them gave us a better insight into where most of the crimes on campus were <b>bike-->
+        <!--thefts</b>. Because of this insight, we decided to survey and interview student bikers.</p>-->
+        <!--</div>-->
+    </div>
+    <br><br>
+    <div class="row">
+
+        <div class="col-md-6">
+            <img src="images/v2/cinemall/fidelio.png" class="img-responsive center-block"/>
+        </div>
+
+        <div class="col-md-6">
+            <!--<p class="feature-title">Interviews</p>-->
+            <!--<ul class="main-text">-->
+            <!--<li><b>Method: </b>semi-structured interviews</li>-->
+            <!--<li><b>Who: </b>12 student bikers, 2 members of Georgia Tech Police Department</li>-->
+            <!--<li><b>Goal: </b>to understand the concern for bicycle safety</li>-->
+            <!--</ul>-->
+
+            <img src="images/v2/cinemall/sony.png" class="img-responsive center-block"/>
+
+        </div>
+    </div>
+    <br><br>
+    <!--<div class="row">-->
+
+
+    <!--<div class="col-md-6">-->
+    <!--<img src="images/lockit/contextualinquiry.jpg" class="img-responsive center-block"/>-->
+    <!--</div>-->
+    <!--<div class="col-md-6 add-small-margin">-->
+    <!--<p class="feature-title">Contextual Inquiries</p>-->
+    <!--<ul class="main-text">-->
+    <!--<li><b>Method: </b>attaching GoPros to bicycle helmets</li>-->
+    <!--<li><b>Who: </b>2 student bikers</li>-->
+    <!--<li><b>Tasks: </b>maneuvering around campus, locking bicycle</li>-->
+    <!--<li><b>Goal: </b>to see how student bikers are finding parking spots</li>-->
+    <!--</ul>-->
+    <!--</div>-->
+    <!--</div>-->
+
+</div>
+
+
+<div class="container-fluid my-container">
+
+    <div class="row">
+        <div class="col-md-12"><br><br>
+            <p class="text-center section-subtitle">Following themes emerged</p>
+            <!--<p>Our the formative research led to to these overarching themes</p>-->
+            <!--<br>-->
+        </div>
+    </div>
+</div>
+
+
+<div class="container medium-container">
+    <div class="row">
+        <div class="col-md-6">
+            <ul class="main-text">
+                <li>Renting a DV can be an intrusive experience for the users</li>
+                <li>Staff is poorly trained about different assistive devices</li>
+                <li>ADA requires most movies to be DV compliant</li>
+                <li>It can be hard to find DV information on theater's websites</li>
+            </ul>
+
+        </div>
+        <div class="col-md-6">
+            <ul class="main-text">
+                <li>Users have to arrive earlier & leave later compared to others</li>
+                <li>Users arrived at movie therater's but no DV devices available</li>
+                <li>DV devices don't function properly even within designated range</li>
+                <li>Devices are often dirty, incompatible with personal headsets</li>
+                <!--<img src="images/lockit/persona2.jpg" class="img-responsive"/>-->
+            </ul>
+        </div>
+    </div>
+</div>
+
+
+<div class="container-fluid my-container">
+
+    <div class="row">
+        <div class="col-md-12"><br><br>
+            <p class="text-center section-subtitle">What's the process really like ?</p>
+            <p>We wanted to understand how users go about using the descriptive video devices and the different
+                decisions
+                they had to make along the way. We conducted a <b>task analysis</b> and then created a <b>journey
+                    map</b></p>
+            <br><br>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+
+    <div class="row ">
+        <div class="col-md-12">
+
+            <a> <img src="images/v2/cinemall/journey-1.png"
+                     class="img-responsive center-block slightly-larger-than-medium-large-image"/></a>
+        </div>
+    </div>
+</div>
+
+<!--<div class="container-fluid my-container">-->
+
+<!--<div class="row">-->
+<!--<div class="col-md-12">-->
+
+<!--<p>In a group session, we analyzed our notes from our interviews, field visits and walkthroughs on an <b>affinity diagram</b>. This-->
+<!--helped us categorize our notes to identify key user needs.</p>-->
+<!--</div>-->
+<!--</div>-->
+<!--</div>-->
+
+<!--<div class="container">-->
+
+<!--<div class="row ">-->
+<!--<div class="col-md-12">-->
+
+<!--<a> <img src="images/v2/cinemall/affinity.png"-->
+<!--class="img-responsive center-block slightly-larger-than-medium-large-image"/></a>-->
+<!--</div>-->
+<!--</div>-->
+<!--</div>-->
+
+<!--<div class="container-fluid my-container">-->
+<!--<div class="row">-->
+<!--<div class="col-md-12">-->
+<!--<p class="text-center section-subtitle">Defining our problem space</p>-->
+<!--<p>While our initial focus was on bike thefts, in our research, we found bigger problems that bikers had-->
+<!--on campus. We identified 2 core problems:</p>-->
+<!--<ol class="main-text">-->
+<!--<li>Bikers were having a hard time finding a space to park during peak time</li>-->
+<!--<li>Bikers will forget where they lock their bikes and spend extra time trying to find it</li>-->
+<!--</ol>-->
+<!--</div>-->
+<!--</div>-->
+<!--</div>-->
+
+
+<div class="container-fluid my-container" id="insights">
+    <div class="row">
+        <div class="col-md-12">
+            <p class="text-center section-title">Insights</p>
+            <p class="text-center section-subtitle">Finding the key user needs</p>
+            <p>In a group session, we analyzed our notes from all the previous formative research on an <b>affinity
+                diagram</b>. This
+                helped us categorize our notes to identify key user needs.</p><br>
+            <p class="vertical-divider">I want to be better prepared before I go to the movie theater</p>
+            <p class="vertical-divider">I wish it was easier to acquire the appropriate DV devices in theater</p>
+            <p class="vertical-divider">I wish there is better way to manage when device malfunctions</p>
+        </div>
+    </div>
+</div>
+
+<div class="container medium-container">
+
+    <div class="row ">
+        <div class="col-md-12">
+            <img src="images/v2/cinemall/affinity-maps-both.png"
+                 class="img-responsive center-block "/>
+        </div>
+        <!--<div class="col-md-8 center-block">-->
+        <!--<p class="vertical-divider">I want to be better prepared before I go to the movie theater</p>-->
+        <!--<p class="vertical-divider">I wish it was easier to acquire the appropriate DV devices in theater</p>-->
+        <!--<p class="vertical-divider">I wish there is better way to manage when device malfunctions</p>-->
+        <!--</div>-->
+    </div>
+</div>
+
+
+<div class="container-fluid my-container" id="ideation">
+    <div class="row">
+        <div class="col-md-12">
+            <p class="text-center section-title">Ideation</p>
+            <p class="text-center section-subtitle">Brainstorming</p>
+            <p>Once we identified the key user needs, our next goal was try to come up with design ideas that
+                addressed
+                these needs. We came up with 60+ concepts and refined them into 18 ideas.<br>
+                We were struggling with how to narrow down to around 2-3 ideas to focus on. That's when
+                I found out about the <b>feasibility vs user-imapct chart</b> which helped us make the decision.
+                We wanted a way where we could maximize the benefits for the user but also keep costs relatively low
+                for the providers to encourage them to adopt the solution
+            </p>
+        </div>
+    </div>
+</div>
+
+<!--<div class="container medium-container">-->
+
+<!--<div class="row">-->
+<!--<div class="col-md-12">-->
+<!--<img src="images/v2/cinemall/feasibility.png"-->
+<!--class="img-responsive center-block "/>-->
+<!--</div>-->
+
+<!--</div>-->
+<!--</div>-->
+<!--<br>-->
+
+
+<div class="container-fluid my-container">
+    <div class="row">
+        <div class="col-md-12">
+            <p class="text-center section-subtitle">Design alternatives</p>
+            <p>We narrowed down our ideas to 3 design alternatives</p>
+            <br>
+            <ol class="main-text">
+                <li><b>Smart Kiosk</b>
+                    An accessible kiosk which can be used to dispense assistive devices along with movie tickets.
+                </li>
+                <!--<img src="images/v2/cinemall/kiosk-storyboard.png" class="img-responsive center-block">-->
+                <!--<br><br>-->
+
+                <li><b>In-theater Service App (leveraging existing devices)</b>
+                    A mobile app which enables users to request VD devices before arriving at theater and get help.
+                </li>
+                <!--<br>-->
+
+                <!--<img src="images/v2/cinemall/idea2-storyboard.png" class="img-responsive center-block">-->
+                <!--<br><br>-->
+                <li><b>In-theater Audio Streaming App : </b> A mobile app which stream the video description in
+                    theater, eliminating the need to rent devices.
+                </li>
+
+                <!--<img src="images/v2/cinemall/idea3-storyboard.png" class="img-responsive center-block">-->
+                <!--<br><br>-->
+            </ol>
+        </div>
+    </div>
+</div>
+
+
+<div class="container-fluid my-container">
+    <div class="row">
+        <div class="col-md-12">
+            <p class="text-center feature-title">Smart Kiosk</p>
+            <p>This solution aimed to cut out interaction with theater associates, who are often times under-trained and
+                cause unnecessary frustrations for visually impaired moviegoers. Additionally, we envisioned the kiosks
+                to be a universal solution and a one-stop shop for all moviegoers to purchase or pickup tickets and
+                retrieve
+                assistive devices. While we are focused on the visually impaired, this solution could also have a
+                broader
+                adaptation for those who need different types of assistance, such as hearing devices.</p><br><br>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <img src="images/v2/cinemall/kiosk-idea.png" class="img-responsive center-block">
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid my-container">
+    <div class="row">
+        <div class="col-md-12">
+            <p class="text-center feature-title">In-theater Service App</p>
+            <p>This solution aimed to be low cost, as theaters won’t have to replace their devices. Here, instead we
+                will
+                pair users with devices before they arrive at the theater, therefore alleviating frustrations of
+                interacting
+                with under-trained staff.
+            </p><br><br>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <img src="images/v2/cinemall/service-app.png" class="img-responsive center-block">
+        </div>
+    </div>
+</div>
+
+
+<div class="container-fluid my-container">
+    <div class="row">
+        <div class="col-md-12">
+            <p class="text-center feature-title">Audio Streaming App</p>
+            <p>This solution aimed to cut down on the learning curve by using the device users already have with them,
+                their smartphone. Users won’t need to lug around additional clunky devices. This solution will also cut
+                out the need to interact with theater associates who often provide incorrectly configured devices for
+                the users.
+            </p><br><br>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <img src="images/v2/cinemall/streaming-app.png" class="img-responsive center-block">
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid my-container" id="design">
+    <div class="row">
+        <div class="col-md-12">
+            <p class="text-center section-title">Design</p>
+            <p class="text-center section-subtitle">Design Direction</p>
+            <p>We demoed these 3 ideas to the class and also got feedback from GT AMAC-Accessibility Solutions and
+                Research Center, Center for the Visually Impaired (CVI)-Atlanta. Based on the feedback,
+                we decided on we decided to move ahead with <b>Idea #3: Audio Streaming App</b> and also include
+                some features of the Service App.<br>
+                We were reassured from experts and target users that smartphones with screen-reader functionality
+                are used by visually impaired users and hence
+                decided to go ahead with the mobile app idea.</p>
+        </div>
+    </div>
+</div>
+
+
+<div class="container-fluid my-container">
+    <div class="row">
+        <div class="col-md-12">
+
+            <p class="text-center section-subtitle">User flow diagram</p>
+            <p>We created a user flow diagram to layout how we invisioned users would navigate our application.</p>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <img src="images/v2/cinemall/user-flow.png" class="img-responsive center-block">
+        </div>
+    </div>
+</div>
+
+
+<div class="container-fluid my-container">
+    <div class="row">
+        <div class="col-md-12">
+            <p class="text-center section-subtitle">Design Details</p>
+            <p>First we had to choose the fidelity of the prototype. We needed the fidelity to be high enough, that
+                users could get feedback from the interactive elements. We also had to constantly keep in mind that
+                we were designing for a special population. This would come to affect eveything from the colors we
+                used, to the font size, and everyting in between.</p>
+            <br>
+
+            <p class="feature-title">Choosing colors and contrast</p>
+            <p>Because our users are visually impaired, we did some preliminary testing to confirm that our colors and
+                contrasts meet widely-accepted guidelines. We used the WebAIM web app to check our contrast ratios.
+                We considered a 4.5:1 contrast ratio as passing based off of the w3 recommendations for accessibility.
+                Red was used because it has the longest wavelength, and provides the least stress on the eye when
+                switching between it and dark contexts. Additionally, we made sure to add patterned backgrounds
+                to all clickable elements to double-encode the information so that users with poor color perception
+                can easily distinguish different elements on the screens. Lastly, we made the text and buttons
+                large to allow for user error when aiming, which might be more common among our users.
+            </p><br><br>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <img src="images/v2/cinemall/color-scheme.png" class="img-responsive center-block"/>
+            <br>
+        </div>
+    </div>
+</div>
+
+
+<div class="container-fluid my-container add-medium-margin">
+    <div class="row">
+        <div class="col-md-12">
+            <p class="text-center section-subtitle">Looking closely at screens </p>
+            <p>These are some of the key design decisions I took based mostly on the data we gathered and my
+                intuition as a problem solver. </p>
+
+            <br><br>
+        </div>
+    </div>
+</div>
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+
+            <img src="images/v2/cinemall/screen-details.png" class="img-responsive center-block"/>
+
+            <br>
+            <p class="text-center">Please find all screens <a href="images/cinemall/cinemall-hifi.png"
+                                                              target="_blank"><b>here</b></a></p>
+        </div>
+    </div>
+</div>
+
+
+<div class="container-fluid my-container add-medium-margin" id="prototype">
+    <div class="row">
+        <div class="col-md-12">
+            <p class="text-center section-subtitle">Prototype</p>
+            <p>We needed to have the screen-reader functionality in the prototype for the user testing session. But
+                because there was no prototyping tool
+                that we found that could do that. I came up with the idea of using JustInMind's audio playback
+                functionality to mimic the
+                screen-reader functionality with varying interactions for triggering audio and selection. <br>
+                Unfortunately my JustInMind free version expired hence I recreated the prototype in Invision (without
+                the audio).
+            </p>
+            <br><br>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-12 ">
+            <br><br>
+            <iframe width="438" height="930" src="//invis.io/JVOSLR25AHD" frameborder="0" allowfullscreen
+                    class="center-block"></iframe>
+        </div>
+    </div>
+</div>
+
+
+<div class="container-fluid my-container add-medium-margin">
+    <div class="row">
+        <div class="col-md-12">
+            <p class="text-center section-subtitle">What difference did we make ?</p>
+            <p>Classic before-after storyboard to highligh how we changed the overall experience. </p>
+            <br>
+        </div>
+    </div>
+</div>
+
+<div class="container medium-container">
+    <div class="row">
+
+        <div class="col-md-6">
+            <img src="images/v2/cinemall/storyboard-before.png" class="img-responsive center-block add-drop-shadow"/>
+            <br>
+            <p class="text-center caption">Before</p>
+        </div>
+
+
+        <div class="col-md-6">
+            <img src="images/v2/cinemall/storyboard-after.png" class="img-responsive center-block add-drop-shadow "/>
+            <br>
+            <p class="text-center caption">After</p>
+        </div>
+    </div>
+
+</div>
+
+
+<div class="container-fluid my-container" id="evaluation">
+    <div class="row">
+        <div class="col-md-12">
+            <p class="text-center section-title">Evaluation</p>
+            <p class="text-center section-subtitle">Putting our design through the ultimate test</p>
+            <p>We used a combination of expert and user testing in order to test the performance of our application
+                design.
+                Within these categories we used techniques including <b>cognitive walkthroughs</b>, <b>unstructured
+                    interviews</b>,
+                <b>benchmark tasks</b>, the <b>SUS Scale</b>, and a <b>post-task questionnaire</b> in order to get
+                different
+                types of feedback by means of both quantitative and qualitative measures.</p>
+        </div>
+    </div>
+</div>
+
+
+<div class="container medium-container">
+    <div class="row">
+
+        <div class="col-md-12">
+            <img src="images/v2/cinemall/user-test-all.png"
+                 class="img-responsive center-block "/>
+        </div>
+    </div>
+
+</div>
+
+<div class="container medium-container">
+    <div class="row">
+
+        <div class="col-md-12">
+            <img src="images/v2/cinemall/testing-highlights.png"
+                 class="img-responsive center-block "/>
+        </div>
+    </div>
+    <br>
+    <p class="text-center">Please find the detailed user feedback per screen <a
+            href="images/v2/cinemall/evaluation-results.png" target="_blank"><b>here</b></a></p>
+
+</div>
+
+<div class="container-fluid my-container" id="reflection">
+    <div class="row">
+        <div class="col-md-12">
+            <p class="text-center section-title">Reflection</p>
+            <p class="text-center section-subtitle">My thoughts</p>
+            <p>This project took us through the entire design process -- from the finding an interesting problem
+                space and identifying user needs to validating our solution with user testing. Here are some of my
+                thoughts on the journey.</p>
+            <ul class="main-text">
+                <li>When we embarked on this project, we were all excited to design for a population we were
+                    unfamiliar
+                    with. We saw it as a challenge and knew we had to rigorously follow the design process in order
+                    to
+                    make sure we kept the best interests of these users in mind. However, designing for this
+                    population
+                    proved to be a challenge on multiple occasions.
+                </li>
+                <li>Design proved challenging because we had to be meticulous along every step of the way that our
+                    system met
+                    accessibility standards for various types of visual impairments.
+                </li>
+                <li>There aren't many prototyping tools that take accessability into account</li>
+                <li>We should have leveraged more participatory design methods allowing the users to have been part
+                    of the process during every step of the way, not just in the interview and evaluation phases.
+                    It might take more time to design this way, but would be a better way to approach this
+                    particular situation.
+                </li>
+            </ul>
+            <br><br><br>
+        </div>
+    </div>
+
+</div>
+
+<div class="my-footer-nav">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <a href="/">
+                    <p class="nav-text text-left">BACK TO PORTFOLIO</p>
+                </a>&nbsp;
+            </div>
+            <div class="col-md-6">
+                <p class="nav-text text-right">UP NEXT: <a href="check" class="footer-nav-link">memeois &#8594;</a>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+</div>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+<script src="assets/js/script.js"></script>
+
+
+</body>
+</html>

@@ -139,7 +139,7 @@ a.page-title:hover {
 .divider {
     height: 4px;
     width: 100px;
-    background-color: rgba(0, 0, 0, 1);
+    background-color: rgba(255, 255, 255, 1);
     margin-top: 10px;
     margin-bottom: 30px;
 }
@@ -423,6 +423,10 @@ img.bkgd-tiles {
 
 .video-effect {
     width: 50%;
+    box-shadow: 4px 4px 24px rgba(0, 0, 0, 0.12);
+}
+
+.video-shadow {
     box-shadow: 4px 4px 24px rgba(0, 0, 0, 0.12);
 }
 
