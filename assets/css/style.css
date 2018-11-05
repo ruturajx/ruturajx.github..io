@@ -1089,7 +1089,3 @@ img.bkgd-tiles {
 .footer-social {
     float: right;
 }
-
-html {
-    scroll-behavior: smooth;
-}

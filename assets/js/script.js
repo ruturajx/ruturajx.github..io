@@ -127,6 +127,7 @@ menuItems.click(function (e) {
     e.preventDefault();
 });
 
+
 // Bind to scroll
 $(window).scroll(function () {
     // Get container scroll position
