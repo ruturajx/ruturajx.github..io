@@ -40,7 +40,7 @@ a.page-title:hover {
 }
 
 .personal-title {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 1.1em;
     color: rgba(0, 0, 0, 0.87);
     letter-spacing: 0.4px;
@@ -57,21 +57,21 @@ a.page-title:hover {
 }
 
 .section-subtitle {
-    font-family: 'futura-pt', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 2em;
     font-weight: 600;
     margin-bottom: 30px;
 }
 
 .feature-title {
-    font-family: 'proxima-nova', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 1.25em;
     font-weight: 600;
     padding-top: 20px;
 }
 
 .caption {
-    font-family: 'futura-pt', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 1em;
     color: #7E7E7E;
     margin-top: 10px;
@@ -80,7 +80,7 @@ a.page-title:hover {
 
 .name {
     font-family: 'Poppins', sans-serif;
-    font-size: 2em;
+    font-size: 3em;
     color: rgba(0, 0, 0, 0.87);
     letter-spacing: 1px;
     font-weight: 600;
@@ -98,13 +98,34 @@ a.page-title:hover {
 }
 
 .front-text {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 1em;
     color: rgba(0, 0, 0, 0.87);
     letter-spacing: 0.2px;
     line-height: 1.3em;
     font-weight: 100;
 }
+
+.index-about-text {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.3em;
+    color: rgba(0, 0, 0, 0.87);
+    letter-spacing: 0.2px;
+    line-height: 1.3em;
+    font-weight: 100;
+}
+
+.role-text {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.7em;
+    color: rgba(0, 0, 0, 0.54);
+    letter-spacing: 0.2px;
+    line-height: 1.4em;
+    font-weight: 100;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
 
 .to-show {
     display: none;
@@ -202,7 +223,7 @@ a.dribbble:hover {
 
 .my-footer-nav {
     height: 100px;
-    background-color: rgba(50, 50, 50, 1);
+    background-color: rgba(255, 255, 255, 1);
     padding: 2.2% 25px 0px 25px;
     margin-top: 150px;
 }
@@ -217,12 +238,12 @@ a.dribbble:hover {
 a.footer-nav-link {
     font-size: 1em;
     font-weight: 300;
-    color: white;
+    color: black;
     text-decoration: none;
 }
 
 a.footer-nav-link:hover {
-    color: rgba(100, 100, 100, 1);
+    font-weight: 500;
 }
 
 .my-actual-footer {
@@ -269,6 +290,12 @@ ul > li::before {
 .contact-info {
     height: 20px;
     margin: 0;
+    padding: 30px;
+}
+
+.footer-info {
+    height: 20px;
+    margin: 50px;
     padding: 30px;
 }
 
@@ -535,7 +562,7 @@ img.bkgd-tiles {
     background-color: rgba(0, 0, 0, 0.20);
     /*border: 2px solid black;*/
     border-radius: 2px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 1em;
     color: rgba(0, 0, 0, 0.87);
     text-decoration: none;
@@ -856,7 +883,7 @@ img.bkgd-tiles {
         -moz-transition: .5s all ease-out;
         transition: .5s all ease-out;
         border-bottom: 3px solid white;
-        color: #aaa;
+        color: rgba(0, 0, 0, 0.54);
         text-decoration: none;
     }
 
@@ -875,7 +902,7 @@ img.bkgd-tiles {
 @media (min-width: 992px) {
 
     .front-desc {
-        padding-right: 50px;
+        padding-left: 50px;
     }
 
     .add-extra-small-margin {
@@ -1045,4 +1072,24 @@ img.bkgd-tiles {
     flex-flow: column nowrap;
     align-items: center;
     padding-top: 30px;
+}
+
+.card-circle {
+    height: 48px;
+    width: 48px;
+    border-radius: 100px;
+    background-color: white;
+    margin-bottom: 12px;
+}
+
+.index-intro {
+    margin-bottom: 200px;
+}
+
+.footer-social {
+    float: right;
+}
+
+html {
+    scroll-behavior: smooth;
 }
