@@ -110,7 +110,7 @@ a.page-title:hover {
     font-size: 1.3em;
     color: rgba(0, 0, 0, 0.87);
     letter-spacing: 0.2px;
-    line-height: 1.3em;
+    line-height: 1.5em;
     font-weight: 100;
 }
 
@@ -1121,7 +1121,7 @@ img.bkgd-tiles {
     width: 26px;
     height: 46px;
     border-radius: 13px;
-    border: 2px solid rgba(0, 0, 0, 0.87);
+    border: 2px solid rgba(0, 0, 0, 0.54);
     bottom: 20px;
     left: 50%;
     margin-left: -13px;
@@ -1133,7 +1133,7 @@ img.bkgd-tiles {
     width: 3px;
     height: 3px;
     border-radius: 50%;
-    background: rgba(0, 0, 0, 0.87);
+    background: rgba(0, 0, 0, 0.54);
     border: 1px solid transparent;
     -webkit-animation-duration: 1s;
     animation-duration: 1s;
