@@ -578,6 +578,29 @@ img.bkgd-tiles {
     transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
 }
 
+.infinity-btn {
+    padding: 20px 40px;
+    background-color: #131325;
+    /*border: 2px solid black;*/
+    border-radius: 8px;
+    font-family: 'Share Tech Mono', sans-serif;
+    font-size: 1em;
+    color: #FFEDBF;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.infinity-btn:hover {
+    background-color: #131325;
+    color: #FFEDBF;
+    text-decoration: none;
+    cursor: pointer;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+}
+
+
 .collapse-btn {
     padding: 8px 24px;
     background-color: rgba(255, 255, 255, 1);
