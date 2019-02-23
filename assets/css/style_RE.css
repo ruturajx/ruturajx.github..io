@@ -326,6 +326,28 @@ a.portfolio-link {
     color: #000;
 }
 
+.work-title {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2em;
+    color: rgba(0, 0, 0, 0.87);
+    letter-spacing: 1px;
+    font-weight: 600;
+    margin-bottom: -10px;
+
+}
+
+.work-sub {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5em;
+    color: rgba(0, 0, 0, 0.54);
+    letter-spacing: 0.2px;
+    line-height: 1.4em;
+    font-weight: 100;
+    margin-top: 10px;
+    margin-bottom: 80px;
+}
+
+
 a.link {
     font-family: 'futura-pt', sans-serif;
     position: relative;
